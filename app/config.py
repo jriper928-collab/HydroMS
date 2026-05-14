@@ -42,7 +42,7 @@ class Settings(BaseSettings):
     OPENROUTER_API_KEY: str = ""
 
     # Public base URL (used to construct video URLs for Instagram)
-    BASE_URL: str = "http://localhost:8000"
+    BASE_URL: str = "https://hydroms-production.up.railway.app"
 
 
 settings = Settings()
